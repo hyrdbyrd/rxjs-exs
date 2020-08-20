@@ -1,0 +1,30 @@
+.game {
+    border-collapse: collapse;
+
+    font-size: 36px;
+    font-family: monospace;
+
+    user-select: none;
+}
+
+.game__cell {
+    text-align: center;
+
+    border: 1px solid #333333;
+    background: #ffffff;
+
+    width: 60px;
+    height: 60px;
+}
+
+.game__cell:not(.board__item) {
+    background: #dddddd;
+}
+
+.game__cell.game__cell_droppable {
+    background: #9f9 !important;
+}
+
+.game__cell.game__cell_editable {
+    background: #eeeeee;
+}

@@ -1,0 +1,16 @@
+.task td {
+    transition: all .2s linear;
+
+}
+
+.task_checking .game__cell {
+    background: #fc0;
+}
+
+.task_correct .game__cell {
+    background: #2f2;
+}
+
+.task_incorrect .game__cell {
+    background: #f99;
+}
