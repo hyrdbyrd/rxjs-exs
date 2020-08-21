@@ -1,9 +1,0 @@
-.board__item {
-    cursor: grab;
-}
-
-.board__item_grabbing {
-    cursor: grabbing;
-    position: absolute;
-    pointer-events: none;
-}
