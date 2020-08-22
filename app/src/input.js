@@ -19,8 +19,7 @@ const onInput = event => {
         body: JSON.stringify({ value })
     })
         .then(e => e.json())
-        .then(({ status }) => event.target.className = `secret_status_${status}`)
-        .then(() => setTimeout(() => event.target.className = '', 5000));
+        .then(({ status }) => event.target.className = `secret_status_${status}`);
 };
 
 const debouncedOnInput = debounce(onInput, 2000);

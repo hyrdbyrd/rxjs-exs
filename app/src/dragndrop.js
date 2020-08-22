@@ -26,15 +26,9 @@ const mouseUp = () => {
     document.removeEventListener('mouseup', mouseUp);
 };
 
-const mouseDown = event => {
+const mouseDown = () => {
     document.addEventListener('mousemove', mouseMove);
     document.addEventListener('mouseup', mouseUp);
-
-    const { left, top }  = getCoords(dragNDropElem, event);
-
-    dragNDropElem.style.top = top;
-    dragNDropElem.style.left = left;
-    dragNDropElem.style.position = 'absolute';
 };
 
 dragNDropElem.addEventListener('mousedown', mouseDown);
