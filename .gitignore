@@ -1,4 +1,4 @@
-app/static/*.js
+app/static/scripts/*.js
 .idea
 .vscode
 .DS_Store

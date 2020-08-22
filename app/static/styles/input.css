@@ -1,0 +1,23 @@
+@import 'common.css';
+
+#secret {
+    font-size: 54px;
+
+    outline: none;
+    border-style: solid;
+    border-width: 3px;
+
+    transition: all .2s linear;
+}
+
+.secret_status_loading {
+    border-color: #fc0;
+}
+
+.secret_status_correct {
+    border-color: #9f9;
+}
+
+.secret_status_incorrect {
+    border-color: #f99;
+}

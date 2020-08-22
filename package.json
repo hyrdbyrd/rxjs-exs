@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "game:build:dev": "webpack --watch --config ./app/webpack.config.js --mode development",
-    "game:server": "node ./app/index.js",
+    "game:build:dev": "webpack --watch --config app/webpack.config.js --mode development",
+    "game:server": "nodemon ./app/index.js",
     "game:open": "open http://localhost:3000",
     "game:dev": "npm-run-all -p game:build:dev game:server game:open"
   },

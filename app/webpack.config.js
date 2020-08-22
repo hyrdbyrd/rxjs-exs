@@ -2,11 +2,11 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        script: path.resolve(__dirname, 'src/script.js'),
-        'rxjs-script': path.resolve(__dirname, 'src/rxjs-script.js')
+        dragndrop: path.resolve(__dirname, 'src/dragndrop.js'),
+        input: path.resolve(__dirname, 'src/input.js')
     },
     output: {
-        path: path.resolve(__dirname, 'static')
+        path: path.resolve(__dirname, 'static/scripts')
     },
     module: {
         rules: [{

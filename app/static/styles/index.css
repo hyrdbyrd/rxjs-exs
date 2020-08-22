@@ -1,0 +1,27 @@
+@import "common.css";
+
+.navigation {
+    font-family: monospace;
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    border: 3px solid #333333;
+    background: #ffffff;
+
+    padding: 5px;
+    margin: 0 10px;
+
+    transition: all .2s linear;
+
+    text-decoration: none;
+    color: #333333;
+}
+
+.navigation__item:hover {
+    background: #eeeeee;
+}
